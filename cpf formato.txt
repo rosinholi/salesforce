@@ -1,0 +1,16 @@
+Formatacao_CPF
+
+
+NOT( OR( LEN ( CPF__c ) = 0, REGEX( CPF__c , "[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}") ) )
+
+
+Formato de CPF inválido:
+O formato do campo CPF deve ser XXX.XXX.XXX-XX, onde o "X" é um número.
+
+
+Formato de CPF inválido: 
+Utilize: XXX.XXX.XXX-XX
+
+
+
+Regra de validação para formatação do CPF. Formato: XXX.XXX.XXX-XX
